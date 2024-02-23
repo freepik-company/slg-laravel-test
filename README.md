@@ -10,5 +10,9 @@ docker run --rm \
 ```
 
 ```
-vendor/bin/sail
+cp .env.example .env
+```
+
+```
+vendor/bin/sail up --build
 ```
